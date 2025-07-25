@@ -10,4 +10,6 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](./Hashtable/valid_anagram.py) | Easy | Hash Table, String, Sorting |
 
+| 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/merge-strings-alternately/) | [merge_string_alt.py](./Two Pointer/merge_string_alt.py) | Easy | Two Pointer, String |
+
 | 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells) | [count_colored_cells.py](./Math/count_colored_cells.py) | Easy | Array, Two Pointer, Sorting |
