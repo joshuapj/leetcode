@@ -1,4 +1,4 @@
-```This repository documents my solutions to LeetCode problems as I prepare for technical interviews. Each solution is written in Python and organized by topic.```
+This repository documents my solutions to LeetCode problems as I prepare for technical interviews. Each solution is written in Python and organized by topic.
 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [two-sum.py](./Arrays/two_sum.py) | Easy | Array, Hash Table |
 
