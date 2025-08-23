@@ -2,11 +2,17 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [two-sum.py](./Arrays/two_sum.py) | Easy | Array, Hash Table |
 
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [count_colored_cells.py](./Arrays/container_w_most_water.py) | Medium | Array, Two Pointer, Greedy |
+
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [remove_duplicate.py](./Arrays/remove_duplicate.py) | Easy | Array, Two Pointer |
 
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element) | [remove_duplicate.py](./Arrays/remove_element.py) | Easy | Array, Two Pointer |
 
-| 27 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [remove_duplicate.py](./Arrays/merge_sorted_array.py) | Easy | Array, Two Pointer, Sorting |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [remove_duplicate.py](./Arrays/merge_sorted_array.py) | Easy | Array, Two Pointer, Sorting |
+
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [reverse_words_in_string](./TwoPointer/reverse_words_in_string.py) | Medium | Two Pointer, String |
+
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [prod_of_array_except_self.py](./Arrays/prod_of_array_except_self.py) | Medium | Array, Prefix Sum |
 
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](./Hashtable/valid_anagram.py) | Easy | Hash Table, String, Sorting |
 
