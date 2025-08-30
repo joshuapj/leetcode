@@ -20,6 +20,8 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [greatest_common_divisor_of_strings.py](./Math/greatest_common_divisor_of_string.py) | Easy | Math, String |
 
+| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [kids_with_the_greatest_number_of_candies.py](./Arrays/kids_with_the_greatest_number_of_candies.py) | Easy | Arrays |
+
 | 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/merge-strings-alternately/) | [merge_string_alt.py](./Two Pointer/merge_string_alt.py) | Easy | Two Pointer, String |
 
 | 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells) | [count_colored_cells.py](./Math/count_colored_cells.py) | Easy | Array, Two Pointer, Sorting |
