@@ -20,6 +20,8 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [fizzbuzz.py](./Math/fizzbuzz.py) | Easy | Math, String, Simulation |
 
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [can_place_flowers.py](./Arrays/can_place_floweres.py) | Easy | Arrays, Greedy |
+
 | 643 | [Maximum Average Subarray](https://leetcode.com/problems/maximum-average-subarray-i/) | [max_avg_subarray.py](./Arrays/max_avg_subarray.py) | Easy | Arrays |
 
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [greatest_common_divisor_of_strings.py](./Math/greatest_common_divisor_of_string.py) | Easy | Math, String |
