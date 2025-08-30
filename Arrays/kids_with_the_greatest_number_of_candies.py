@@ -28,6 +28,7 @@ for i in range(length of candies)
 return res
 
 '''
+from typing import List
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         # get max candies
