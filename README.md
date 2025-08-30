@@ -18,6 +18,8 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [fizzbuzz.py](./Math/fizzbuzz.py) | Easy | Math, String, Simulation |
 
+| 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [greatest_common_divisor_of_strings.py](./Math/greatest_common_divisor_of_string.py) | Easy | Math, String |
+
 | 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/merge-strings-alternately/) | [merge_string_alt.py](./Two Pointer/merge_string_alt.py) | Easy | Two Pointer, String |
 
 | 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells) | [count_colored_cells.py](./Math/count_colored_cells.py) | Easy | Array, Two Pointer, Sorting |
