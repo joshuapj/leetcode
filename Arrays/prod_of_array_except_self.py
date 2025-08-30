@@ -4,41 +4,25 @@ output  =   answer: int []
 
 For every item in the array, create a return array where the value stored at the index is equal to the product of every item in the array besides the current item.
 
-Pseudo:
-APPROACH 1:
-given [1,2,3,4]
-we know that the produced array = [24, 12, 8, 6]
-look for correlation between given array and product array:
-maybe start thinking of the arrays in a circular fashion
-[1,     2,      3,      4]
-[24,    12,     8,      6]
-[2*3*4, 1*3*4,  1*2*4,  1*2*3]  // using values
-[1*2*3, 0*2*3,  0*1*3   0*1*2]  // using indexes
+Psuedo:
+prefix [] = array containing the value of the prods  up until a given index.
+postfix [] = array containing the value of the prods before a given index
 
-we can say, based on the above that at location, i and i+1, there is a common product being used:
-
-copy = copy of nums
-flipped_copy = flip of copy
-
-for i in range(nums):
-    flipped_copy *= nums
-    nums = nums[1:] + nums[:1]
-print(flipped_copy)
-
-APPROACH 2:
-given [1,2,3,4]
-we know that the produced array = [24, 12, 8, 6]
-
-keep a prefix array (product of all values before the an index)
-prefix = []
-
+prefix:
 for i in range(len(nums)):
-    if i = 0:
-        prefix.append(1)
+    if i is 0:
+        let postfix[0] = nums[0]
     else:
-        prefix.append(prefix[i-1] * nums[i])
+        prefix[i] = prefex[i-1] * nums[i]
 
+postfix. start at the end and go backwards. basically reverse of the prefix
+for i in range(len(nums) - 1, 0, -1)
+    if i == len(nums) - 1:
+        let postfix[i] = nums[i]
+    else:
+        postfix[i] = postfix[i+1] * nums[i]
 
+after we do that, just multiply the prefix by postifx for location i in nums
 """
 
 from typing import List
@@ -56,7 +40,7 @@ class Solution:
         print(prefix)
 
         # populate in reverse, getting all values of a number after an index
-        for i in range(len(nums) -1, -1, -1):
+        for i in range(len(nums) -1, 0, -1):
             if i == (len(nums) - 1):
                 postfix[i] = nums[i]
             else:
