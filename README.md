@@ -16,6 +16,8 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](./Hashtable/valid_anagram.py) | Easy | Hash Table, String, Sorting |
 
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [is_subsequence.py](./TwoPointer/is_subsequence.py) | Easy | Two Pointer, String, Dynamic Progamming |
+
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [fizzbuzz.py](./Math/fizzbuzz.py) | Easy | Math, String, Simulation |
 
 | 643 | [Maximum Average Subarray](https://leetcode.com/problems/maximum-average-subarray-i/) | [max_avg_subarray.py](./Arrays/max_avg_subarray.py) | Easy | Arrays |
@@ -24,6 +26,6 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [kids_with_the_greatest_number_of_candies.py](./Arrays/kids_with_the_greatest_number_of_candies.py) | Easy | Arrays |
 
-| 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/merge-strings-alternately/) | [merge_string_alt.py](./Two Pointer/merge_string_alt.py) | Easy | Two Pointer, String |
+| 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/merge-strings-alternately/) | [merge_string_alt.py](./TwoPointer/merge_string_alt.py) | Easy | Two Pointer, String |
 
 | 2579 | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells) | [count_colored_cells.py](./Math/count_colored_cells.py) | Easy | Array, Two Pointer, Sorting |
