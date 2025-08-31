@@ -16,6 +16,8 @@ This repository documents my solutions to LeetCode problems as I prepare for tec
 
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](./Hashtable/valid_anagram.py) | Easy | Hash Table, String, Sorting |
 
+| 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/) | [increasing_triplet_subsequence.py](./Arrays/increasing_triplet_subsequence.py) | Medium | Arrays, Greedy |
+
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [move_zeroes.py](./Arrays/move_zeroes.py) | Easy | Arrays, Two Pointer |
 
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [is_subsequence.py](./TwoPointer/is_subsequence.py) | Easy | Two Pointer, String, Dynamic Progamming |
