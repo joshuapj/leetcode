@@ -10,29 +10,29 @@ Cases:
 3) there are no values which ascend in value
 
 Psuedo:
-init j and k to big numbers
+init i and j to big numbers
 
-for i in nums:
-    if i <= j:
-        set j to the smallest
-    elif i <= k:
-        found a number larger than j, but smaller than k
+for k in nums:
+    if k <= i:
+        set i to the smallest
+    elif k <= j:
+        found a number larger than i, but smaller than k
     else:
-        found a three consiecutive numbers return true
+        found three consiecutive numbers return true
 return false
 
 """
 from typing import List
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
+        i = 2**32
         j = 2**32
-        k = 2**32
-        
-        for i in nums:
-            if i <= j:
-                j = i
-            elif i <= k:
-                k = i
+
+        for k in nums:
+            if k <= i:
+                i = k
+            elif k <= j:
+                j = k
             else:
                 return True
         return False
